@@ -15,3 +15,8 @@ if __name__ == "__main__":
             print(f"Dan's average mark: {student_dict["average_mark"]}")
 
     print(f"Dan's average mark: {students[3]["average_mark"]}")
+
+    for student in students:
+        if student["average_mark"] >= 50:
+            print(student["name"])
+
