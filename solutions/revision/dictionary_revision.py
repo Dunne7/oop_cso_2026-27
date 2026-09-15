@@ -20,3 +20,11 @@ if __name__ == "__main__":
         if student["average_mark"] >= 50:
             print(student["name"])
 
+    max_mark = -1
+    name = None
+    for i in range(len(students)):
+        if students[i]["average_mark"] > max_mark:
+            max_mark = students[i]["average_mark"]
+            name = students[i]["name"]
+
+    print(f"Student with highest mark ({max_mark}) was {name}")
