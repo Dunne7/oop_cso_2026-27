@@ -1,4 +1,4 @@
-class People:
+class Person:
     #Attributes of a Person
     fname = "Aaron"
     sname = "Dunne"
