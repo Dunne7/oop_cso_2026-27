@@ -2,7 +2,7 @@ from people import Person
 
 student_1 = Person()
 
-if student_1.lhand == "True":
+if student_1.lhand == True:
     print(f"First Name: {student_1.fname}")
     print(f"Second Name: {student_1.sname}")
     print(f"Age: {student_1.age}")
